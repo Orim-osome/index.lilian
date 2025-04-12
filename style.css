@@ -1,0 +1,70 @@
+.top-container, h3, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+ }
+
+ .button {
+     background-color: rgb(12, 12, 180);
+     color: white;
+     font-weight: bold;
+     padding: 10px;
+     border: none;
+     border-radius: 6px;
+ }
+
+ .button:hover {
+   background-color: rgb(47, 97, 247);
+ }
+
+ .title-text *  {
+  color: rgb(18, 71, 231);
+  font-family: cursive;
+ }
+
+
+ 
+ .Lilian {
+     height: 200px;
+     width: 180px;
+     border-radius: 50%;
+ }
+
+ h2, h3{
+    color: rgb(18, 71, 231);
+ }
+
+
+
+ .work img {
+     height: 50px;
+     float: left;
+     margin-top: 0px;
+     margin-left: 10px;
+ }
+
+
+ footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  @media (min-width: 768px) {
+    .Lilian {
+        height: 100px;
+        width: 90px;
+        border-radius: 50%;
+    }
+}
+  @media (min-width: 768px) and (max-width: 1894px) {
+    .Lilian {
+        height: 250px;
+        width: 230px;
+        border-radius: 50%;
+    }
+  }
+
